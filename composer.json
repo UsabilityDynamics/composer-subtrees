@@ -1,17 +1,13 @@
 {
   "name": "UsabilityDynamics/composer-workflow",
   "type": "composer-plugin",
-
-  "require": {
-    "composer-plugin-api": "1.0.0"
-  },
   "extra" : {
-    "class": "UsabilityDynamics\\Composer\\Workflow\\Plugin"
+    "class": "UsabilityDynamics\\ComposerWorklow\\Plugin"
   },
   "autoload": {
-    "psr-0": {
-      "UsabilityDynamics\\Composer\\Workflow\\": "src"
-    }
+    "classmap": [ "lib" ]
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0"
   }
-
 }

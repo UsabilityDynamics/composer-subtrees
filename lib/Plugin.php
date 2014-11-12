@@ -1,6 +1,6 @@
 <?php
 
-namespace UsabilityDynamics\Composer\Worklow;
+namespace UsabilityDynamics\ComposerWorklow;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
