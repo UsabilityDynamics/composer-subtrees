@@ -1,10 +1,7 @@
 
-
+Install globally.
 ```
-  composer global show UsabilityDynamics/composer-workflow:master
-  composer global require UsabilityDynamics/composer-workflow:master
+composer global require UsabilityDynamics/composer-subtrees master
 ```
 
-The plugin will be installed into ~/.composer/vendor
-
-composer global require UsabilityDynamics/composer-workflow
+* The plugin will be installed into ~/.composer/vendor/usabilitydynamics/composer-subtrees
