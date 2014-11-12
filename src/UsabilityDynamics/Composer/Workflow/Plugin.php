@@ -1,6 +1,6 @@
 <?php
 
-namespace UsabilityDynamics\ComposerWorklow;
+namespace UsabilityDynamics\Composer\Subtrees;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
