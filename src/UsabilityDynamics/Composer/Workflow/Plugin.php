@@ -13,4 +13,5 @@ class Plugin implements PluginInterface
 		$installer = new TemplateInstaller($io, $composer);
 		$composer->getInstallationManager()->addInstaller($installer);
 	}
+
 }
