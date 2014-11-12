@@ -1,13 +1,22 @@
 {
-  "name": "UsabilityDynamics/composer-workflow",
+  "name": "usabilitydynamics/composer-subtrees",
   "type": "composer-plugin",
-  "extra" : {
-    "class": "UsabilityDynamics\\ComposerWorklow\\Plugin"
-  },
+  "description": "Adds Git Subtree management.",
+  "keywords": [
+    "composer",
+    "composer-plugin",
+    "git"
+  ],
+  "license": "MIT",
+  "authors": [ { "name": "Andy Potanin", "homepage": "http://usabilitydynamics.com" } ],
   "autoload": {
-    "classmap": [ "lib" ]
+    "psr-0": { "UsabilityDynamics\\Composer\\Subtrees\\": "src/" }
+  },
+  "extra" : {
+    "class": "UsabilityDynamics\\Composer\\Subtrees\\Plugin"
   },
   "require": {
-    "composer-plugin-api": "1.0.0"
+    "composer-plugin-api": "1.0.0",
+    "czproject/git-php": "~3.0"
   }
 }
