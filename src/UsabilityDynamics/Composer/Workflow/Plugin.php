@@ -3,6 +3,12 @@
 namespace UsabilityDynamics\Composer\Worklow;
 
 use Composer\Composer;
+use Composer\EventDispatcher\EventSubscriberInterface;
+use Composer\IO\IOInterface;
+use Composer\Plugin\PluginInterface;
+use Composer\Plugin\PluginEvents;
+use Composer\Plugin\PreFileDownloadEvent;
+use Composer\Plugin\CommandEvent;
 
 #use Composer\Plugin\PluginCommandInterface;
 #use Jderusse\Console\Command\GreetCommand;
