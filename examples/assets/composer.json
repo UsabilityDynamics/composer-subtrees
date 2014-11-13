@@ -1,0 +1,17 @@
+{
+  "require": {
+    "umpirsky/composer-permissions-handler": "~1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Umpirsky\\PermissionsHandler\\ScriptHandler::setPermissions"
+    ]
+  },
+  "extra":{
+    "writable-dirs": ["app/cache", "app/logs"],
+    "asset-installer-paths": {
+      "npm-asset-library": "web/assets/vendor",
+      "bower-asset-library": "web/assets/vendor"
+    }
+  }
+}
